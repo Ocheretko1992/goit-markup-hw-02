@@ -142,17 +142,21 @@ body {
 
 /* WebStudio */
 /* <!-- Hero --> */
-
 .hero {
   background-color: var(--brand-color);
   color: var(--color-auxiliary);
 }
 /* guidelines */
-.hidden {
-  display: none;
-}
-.projects {
-  display: none;
+.visually-hidden {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* Portfolio (button) + WebStudio (button) */
