@@ -3,16 +3,33 @@
   --secondary-color: #2e2f42;
   --paragraph-color: #434455;
   --interactive-color: #4d5ae5;
+  --color-logo: #f4f4fd;
 }
 body {
   font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #2e2f42;
 }
 .menu {
   list-style: none;
 }
-.link {
+.menu-link-webstudio {
   text-decoration: none;
   color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link-webstudio:hover,
+.menu-link-webstudio:focus {
+  color: #434455;
+}
+.team-list {
+  list-style: none;
+}
+.team-item {
+  background-color: var(--brand-color);
 }
 /* <!--Site header--> */
 .header-site {
@@ -37,28 +54,29 @@ body {
   text-decoration: none;
   color: var(--secondary-color);
 }
-.menu-list {
+.menu-link-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  text-decoration: none;
+}
+.menu-link-portfolio:hover,
+.menu-link-portfolio:focus {
+  color: #434455;
 }
 .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--paragraph-color);
   text-decoration: none;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--interactive-color);
-}
-.link:hover,
-.link:focus {
-  color: #434455;
 }
 /* <!--//Site header--> */
 /* HERO */
@@ -74,7 +92,7 @@ body {
 }
 .button {
   font-family: Roboto, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.04em;
@@ -84,6 +102,9 @@ body {
 }
 .button:hover,
 .button:focus {
+  background-color: #4d5ae5;
+}
+.button:active {
   background-color: #404bbf;
 }
 /* //HERO */
@@ -120,6 +141,20 @@ body {
 .team {
   background: #f4f4fd;
 }
+.title-pages {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.letter-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 /* /Lists */
 
 /* Footer */
@@ -127,6 +162,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
+  letter-spacing: 0.02em;
 }
 .footer-section {
   background-color: var(--secondary-color);
@@ -148,7 +184,7 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--color-logo);
   text-decoration: none;
 }
 /* /Footer */
@@ -161,7 +197,7 @@ body {
   list-style: none;
 }
 .all-buttons {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
