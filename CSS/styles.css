@@ -112,7 +112,6 @@ body {
   color: var(--secondary-color);
 }
 .paragraf-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -125,7 +124,6 @@ body {
 
 /* Footer */
 .footer-paragraf {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
@@ -178,7 +176,6 @@ body {
 }
 .paragraf-text-portfolio {
   color: var(--paragraph-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
